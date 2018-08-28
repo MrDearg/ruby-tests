@@ -1,3 +1,10 @@
+# My Notes
+
+This time without relying upon the index of two array comparisons and using the 
+Array#Zip method to compare strings.
+Also using Enumerable#count on Zip to replace @hamming_count variable
+
+
 # Hamming
 
 Calculate the Hamming difference between two DNA strands.

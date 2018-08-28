@@ -1,9 +1,3 @@
-##
-# This time without relying upon the index of two array comparisons and using the 
-# Array#Zip method to compare strings.
-# Also using Enumerable#count on Zip to replace @hamming_count variable
-##
-	
 class Hamming
   def self.compute(strand_1, strand_2)
     raise ArgumentError if strand_1.length != strand_2.length
@@ -13,4 +7,4 @@ class Hamming
   end
 end
 
-p Hamming.compute('ABCDEF', 'ABCDEF')
+Hamming.compute('ABCDEF', 'ABCDEG')
