@@ -1,3 +1,14 @@
+# My Notes
+
+reading through the ruby docs it seems Array#flatten is designed
+to take an existing array of multiple levels and flatten those 
+contents into a new array at the same root level.
+Further research on the Array#compact method removes any value
+in an Array of any level that is nil so i chose to first
+flatten and then use compact just incase flatten inherited any
+nil values during conversion.
+
+
 # Flatten Array
 
 Take a nested list and return a single flattened list with all values except nil/null.
