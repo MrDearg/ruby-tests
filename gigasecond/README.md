@@ -1,3 +1,13 @@
+# My Notes
+
+Work out when a date reaches it's Giga second which is 10 
+to the power of 9 (10,000,000,000) or 10 billion seconds. I
+originally did this using + 10000000000 however then discovered
+the Ruby power function which is any number or variable seperated
+by ** such as :
+10 ** 9 => 1000000000
+43 ** 6 => 6321363049
+
 # Gigasecond
 
 Calculate the moment when someone has lived for 10^9 seconds.
