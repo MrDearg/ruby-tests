@@ -1,3 +1,10 @@
+# My Notes
+
+A leap year is valid on every year that is evenly divisible by 4
+unless that year that is also evenly divisible by 100 or 400
+Using the % operator which returns 0 where a number is divisable without 
+remainder. Also improved this a little by removing the @date variable on line 10
+
 # Leap
 
 Given a year, report if it is a leap year.
